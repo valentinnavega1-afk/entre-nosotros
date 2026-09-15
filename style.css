@@ -2511,3 +2511,39 @@ strong {
 /* =========================================================
    FIN
    ========================================================= */
+/* =========================================================
+   TURNOS SALUD MENTAL - HOSPITAL RÍO TURBIO
+   ========================================================= */
+
+.mental-health-resource {
+    border: 2px solid rgba(101, 125, 104, 0.15);
+}
+
+.whatsapp-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 18px 0 10px;
+    padding: 13px 18px;
+    border-radius: 999px;
+    background: var(--sage-dark);
+    color: var(--white);
+    font-size: .85rem;
+    font-weight: 800;
+    text-align: center;
+    transition: transform var(--transition),
+                background var(--transition),
+                box-shadow var(--transition);
+}
+
+.whatsapp-button:hover {
+    transform: translateY(-3px);
+    background: #526b56;
+    box-shadow: var(--shadow);
+}
+
+.mental-health-resource .local-phone {
+    display: block;
+    margin-top: 8px;
+}
