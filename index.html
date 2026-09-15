@@ -1,1543 +1,1828 @@
-```html
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
 
-  <title>Entre Nosotros | Enfermería en Salud Mental</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-  <link rel="stylesheet" href="style.css">
+    <meta
+        name="description"
+        content="Entre Nosotros - Espacio de escucha, acompañamiento y prevención en salud mental."
+    >
+
+    <title>Entre Nosotros | Salud Mental</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 
 <body>
 
-  <!-- ================================
-       ENCABEZADO
-  ================================= -->
 
-  <header class="site-header">
+<!-- =========================================================
+     HEADER / NAVBAR
+     ========================================================= -->
+
+<header class="site-header">
 
     <nav class="navbar">
 
-      <a href="#inicio" class="logo">
-        🌿 ENTRE NOSOTROS
-      </a>
+        <a href="#inicio" class="logo">
+            🌿 ENTRE NOSOTROS
+        </a>
 
-      <button
-        class="menu-toggle"
-        id="menu-toggle"
-        aria-label="Abrir menú"
-        aria-expanded="false"
-      >
-        ☰
-      </button>
 
-      <ul class="nav-links" id="nav-links">
+        <button
+            class="menu-toggle"
+            id="menu-toggle"
+            aria-label="Abrir menú"
+            aria-expanded="false"
+        >
+            ☰
+        </button>
 
-        <li>
-          <a href="#senales">Señales</a>
-        </li>
 
-        <li>
-          <a href="#acompanar">Acompañar</a>
-        </li>
+        <ul class="nav-links" id="nav-links">
 
-        <li>
-          <a href="#conversacion">Conversar</a>
-        </li>
+            <li>
+                <a href="#senales">
+                    Señales
+                </a>
+            </li>
 
-        <li>
-          <a href="#mitos">Mitos</a>
-        </li>
+            <li>
+                <a href="#pensamientos">
+                    Pensamientos
+                </a>
+            </li>
 
-        <li>
-          <a href="#compartir">💬 Compartir</a>
-        </li>
+            <li>
+                <a href="#acompanar">
+                    Acompañar
+                </a>
+            </li>
 
-        <li>
-          <a href="#ayuda">Ayuda</a>
-        </li>
+            <li>
+                <a href="#conversacion">
+                    Conversar
+                </a>
+            </li>
 
-        <li>
-          <a href="#ayuda" class="help-button">
-            🆘 Necesito ayuda
-          </a>
-        </li>
+            <li>
+                <a href="#mitos">
+                    Mitos
+                </a>
+            </li>
 
-      </ul>
+            <li>
+                <a href="#compartir">
+                    💬 Compartir
+                </a>
+            </li>
+
+            <li>
+                <a href="#ayuda" class="help-button">
+                    🆘 Necesito ayuda
+                </a>
+            </li>
+
+        </ul>
 
     </nav>
 
-  </header>
+</header>
 
 
-  <main>
 
-    <!-- ================================
-         IDENTIDAD INSTITUCIONAL
-    ================================= -->
+<main>
 
-    <section class="institutional-header">
 
-      <div class="institutional-logo">
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Unpa-logo.svg/330px-Unpa-logo.svg.png"
-          alt="Logo de la Universidad Nacional de la Patagonia Austral"
-        >
-      </div>
+<!-- =========================================================
+     INSTITUCIONAL UNPA
+     ========================================================= -->
 
-      <div class="institutional-text">
+<section class="institutional-header">
+
+    <div class="institutional-logo">
+
+       <img
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Unpa-logo.svg/330px-Unpa-logo.svg.png"
+    alt="Logo de la Universidad Nacional de la Patagonia Austral"
+>
+    </div>
+
+
+    <div class="institutional-text">
 
         <p>
-          UNIVERSIDAD NACIONAL DE LA PATAGONIA AUSTRAL
+            UNIVERSIDAD NACIONAL DE LA PATAGONIA AUSTRAL
         </p>
 
         <span>
-          Cátedra: Enfermería en Salud Mental
+            Cátedra: Enfermería en Salud Mental
         </span>
 
-      </div>
+    </div>
 
-    </section>
+</section>
 
 
-    <!-- ================================
-         HERO
-    ================================= -->
 
-    <section class="hero" id="inicio">
+<!-- =========================================================
+     HERO
+     ========================================================= -->
 
-      <div class="hero-content">
+<section class="hero" id="inicio">
 
-        <p class="eyebrow">
-          UN ESPACIO PARA ESTAR CERCA
-        </p>
+
+    <div class="hero-content">
+
+        <span class="eyebrow">
+            Un espacio para encontrarnos
+        </span>
+
 
         <h1>
-          ENTRE<br>
-          NOSOTROS
+            ENTRE<br>
+            NOSOTROS
         </h1>
 
+
         <p class="hero-subtitle">
-          Un espacio para escuchar, acompañar y prevenir.
+            Un espacio para escuchar, acompañar y prevenir.
         </p>
 
+
         <p class="hero-description">
-          Reconocer las señales también es prevenir.
-          Hablar puede ser el primer paso para que alguien
-          no tenga que atravesar un momento difícil en soledad.
+            Hablar sobre lo que sentimos también es una forma
+            de cuidarnos. A veces, una conversación puede ser
+            el primer paso para que alguien no atraviese solo
+            aquello que está viviendo.
         </p>
+
 
         <div class="hero-buttons">
 
-          <a href="#ayuda" class="button button-primary">
-            NECESITO AYUDA
-          </a>
+            <a
+                href="#ayuda"
+                class="button button-primary"
+            >
+                🆘 Necesito ayuda
+            </a>
 
-          <a href="#acompanar" class="button button-secondary">
-            QUIERO AYUDAR A ALGUIEN
-          </a>
+
+            <a
+                href="#senales"
+                class="button button-secondary"
+            >
+                Conocer las señales
+            </a>
 
         </div>
 
-      </div>
+    </div>
 
 
-      <div class="hero-illustration">
+
+    <!-- ILUSTRACIÓN -->
+
+    <div class="hero-illustration">
 
         <div class="illustration-circle circle-one"></div>
+
         <div class="illustration-circle circle-two"></div>
+
 
         <div class="person person-one">
 
-          <div class="head"></div>
-          <div class="body"></div>
+            <div class="head"></div>
+
+            <div class="body">
+
+                <span></span>
+
+            </div>
 
         </div>
+
 
         <div class="person person-two">
 
-          <div class="head"></div>
-          <div class="body"></div>
+            <div class="head"></div>
+
+            <div class="body">
+
+                <span></span>
+
+            </div>
 
         </div>
 
+
         <div class="connection connection-one"></div>
+
         <div class="connection connection-two"></div>
 
         <div class="heart">
-          ♥
+            ♥
         </div>
 
-      </div>
-
-    </section>
+    </div>
 
 
-    <!-- ================================
-         POR QUÉ ESTAMOS ACÁ
-    ================================= -->
+</section>
 
-    <section class="section introduction" id="porque">
 
-      <div class="section-heading">
 
-        <p class="eyebrow">
-          EMPEZAR POR LO SIMPLE
-        </p>
+<!-- =========================================================
+     INTRODUCCIÓN
+     ========================================================= -->
+
+<section class="section introduction" id="porque">
+
+
+    <div class="section-heading">
+
+        <span class="eyebrow">
+            ¿Por qué hablar de esto?
+        </span>
+
 
         <h2>
-          ¿Por qué estamos acá?
+            A veces, lo que parece pequeño también merece ser escuchado.
         </h2>
 
+
         <p>
-          Porque a veces una conversación, una pregunta o una
-          persona que decide quedarse cerca puede hacer una
-          diferencia enorme.
+            La salud mental forma parte de nuestra salud integral.
+            Reconocer cambios, acompañar a quienes queremos y saber
+            cuándo pedir ayuda puede marcar una diferencia.
         </p>
 
-      </div>
+    </div>
 
 
-      <div class="three-cards">
 
-        <article class="info-card">
-
-          <div class="card-icon">
-            👀
-          </div>
-
-          <h3>
-            Reconocer
-          </h3>
-
-          <p>
-            Aprender a identificar cambios y señales que
-            pueden indicar que alguien está atravesando
-            un momento difícil.
-          </p>
-
-        </article>
+    <div class="three-cards">
 
 
         <article class="info-card">
 
-          <div class="card-icon">
-            🤝
-          </div>
+            <div class="card-icon">
+                👀
+            </div>
 
-          <h3>
-            Acompañar
-          </h3>
+            <h3>
+                Reconocer
+            </h3>
 
-          <p>
-            Escuchar sin juzgar, hacer preguntas y estar
-            cerca puede ayudar más de lo que imaginamos.
-          </p>
+            <p>
+                Prestar atención a cambios emocionales, conductuales
+                o en los vínculos puede ayudarnos a detectar que
+                alguien necesita acompañamiento.
+            </p>
 
         </article>
+
 
 
         <article class="info-card">
 
-          <div class="card-icon">
-            🌱
-          </div>
+            <div class="card-icon">
+                🤝
+            </div>
 
-          <h3>
-            Conectar
-          </h3>
+            <h3>
+                Acompañar
+            </h3>
 
-          <p>
-            No tenemos que resolverlo todo solos.
-            Buscar ayuda profesional también es una forma
-            de acompañar.
-          </p>
+            <p>
+                Escuchar sin juzgar, validar lo que la persona siente
+                y permanecer cerca puede ser una forma importante
+                de cuidado.
+            </p>
 
         </article>
 
-      </div>
-
-    </section>
 
 
-    <!-- ================================
-         SEÑALES
-    ================================= -->
+        <article class="info-card">
 
-    <section class="section signals-section" id="senales">
+            <div class="card-icon">
+                💬
+            </div>
 
-      <div class="section-heading">
+            <h3>
+                Conectar
+            </h3>
 
-        <p class="eyebrow">
-          PRESTAR ATENCIÓN
-        </p>
+            <p>
+                Pedir ayuda profesional no significa estar fallando.
+                Significa reconocer que no tenemos que resolver todo
+                en soledad.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     SEÑALES
+     ========================================================= -->
+
+<section class="section signals-section" id="senales">
+
+
+    <div class="section-heading">
+
+        <span class="eyebrow">
+            Prestemos atención
+        </span>
+
 
         <h2>
-          Señales de alerta
+            Señales que pueden indicar que alguien necesita apoyo
         </h2>
 
+
         <p>
-          Algunas personas pueden mostrar cambios en lo que
-          dicen, sienten o hacen cuando están atravesando
-          una situación de mucho sufrimiento.
+            No existe una única manera de atravesar un momento difícil.
+            Estas señales pueden aparecer de manera aislada o combinada.
         </p>
 
-      </div>
+    </div>
 
 
-      <div class="signal-grid">
 
-        <article class="signal-card">
-
-          <div class="signal-icon">
-            💬
-          </div>
-
-          <h3>
-            Lo que dice
-          </h3>
-
-          <ul>
-
-            <li>
-              Expresa sentirse sin salida,
-              sobrepasado/a o como una carga.
-            </li>
-
-            <li>
-              Habla de no encontrar una salida.
-            </li>
-
-            <li>
-              Menciona la muerte o desaparecer.
-            </li>
-
-          </ul>
-
-        </article>
+    <div class="signal-grid">
 
 
         <article class="signal-card">
 
-          <div class="signal-icon">
-            💭
-          </div>
+            <div class="signal-icon">
+                💬
+            </div>
 
-          <h3>
-            Lo que siente
-          </h3>
+            <h3>
+                Lo que dice
+            </h3>
 
-          <ul>
+            <ul>
 
-            <li>
-              Tristeza o angustia intensa.
-            </li>
+                <li>
+                    Expresa sentirse sin salida, sobrepasado/a
+                    o como una carga.
+                </li>
 
-            <li>
-              Sensación de soledad o aislamiento.
-            </li>
+                <li>
+                    Habla de no encontrar una solución
+                    a lo que está viviendo.
+                </li>
 
-            <li>
-              Sensación de no encontrar una salida
-              o agotamiento emocional.
-            </li>
+                <li>
+                    Menciona la muerte, desaparecer o dejar
+                    de estar.
+                </li>
 
-          </ul>
+            </ul>
 
         </article>
+
 
 
         <article class="signal-card">
 
-          <div class="signal-icon">
-            🔄
-          </div>
+            <div class="signal-icon">
+                💭
+            </div>
 
-          <h3>
-            Lo que cambia
-          </h3>
+            <h3>
+                Lo que siente
+            </h3>
 
-          <ul>
+            <ul>
 
-            <li>
-              Cambios importantes en sus hábitos.
-            </li>
+                <li>
+                    Tristeza, angustia o malestar intenso.
+                </li>
 
-            <li>
-              Se aleja de personas cercanas.
-            </li>
+                <li>
+                    Sensación de soledad o aislamiento.
+                </li>
 
-            <li>
-              Cambios repentinos en su comportamiento.
-            </li>
+                <li>
+                    Agotamiento emocional o sensación de
+                    no poder seguir con determinadas situaciones.
+                </li>
 
-          </ul>
+            </ul>
 
         </article>
+
 
 
         <article class="signal-card">
 
-          <div class="signal-icon">
-            🌧️
-          </div>
+            <div class="signal-icon">
+                    🔄
+            </div>
 
-          <h3>
-            Situaciones que preocupan
-          </h3>
+            <h3>
+                Lo que cambia
+            </h3>
 
-          <ul>
+            <ul>
 
-            <li>
-              Pérdidas o situaciones muy dolorosas.
-            </li>
+                <li>
+                    Cambios importantes en el sueño.
+                </li>
 
-            <li>
-              Conflictos o cambios importantes.
-            </li>
+                <li>
+                    Cambios en el apetito o en las rutinas.
+                </li>
 
-            <li>
-              Momentos de crisis o sufrimiento intenso.
-            </li>
+                <li>
+                    Aislamiento o pérdida de interés por actividades
+                    que antes disfrutaba.
+                </li>
 
-          </ul>
+            </ul>
 
         </article>
 
-      </div>
 
 
-      <div class="important-note">
+        <article class="signal-card">
 
-        <strong>Importante:</strong>
+            <div class="signal-icon">
+                ⚠️
+            </div>
 
-        Una sola señal no permite comprender por sí misma
-        lo que una persona está atravesando. La presencia de
-        pensamientos recurrentes o ideas obsesivas relacionadas
-        con la muerte merece ser escuchada y tomada en serio.
+            <h3>
+                Situaciones que preocupan
+            </h3>
 
-      </div>
+            <ul>
 
-    </section>
+                <li>
+                    Pérdidas recientes o situaciones muy estresantes.
+                </li>
+
+                <li>
+                    Conflictos familiares, de pareja o sociales.
+                </li>
+
+                <li>
+                    Sensación persistente de no poder afrontar
+                    una situación.
+                </li>
+
+            </ul>
+
+        </article>
+
+    </div>
 
 
-    <!-- ================================
-         IDEAS RELACIONADAS CON LA MUERTE
-    ================================= -->
 
-    <section class="section thoughts-section" id="pensamientos">
+    <div class="important-note">
 
-      <div class="section-heading">
+        <span>
+            💛
+        </span>
 
-        <p class="eyebrow">
-          HABLAR TAMBIÉN ES CUIDARSE
+        <p>
+            <strong>
+                Importante:
+            </strong>
+
+            una sola señal no permite comprender por sí misma
+            lo que una persona está atravesando. La presencia
+            de pensamientos recurrentes o ideas obsesivas
+            relacionadas con la muerte merece ser escuchada
+            y tomada en serio, especialmente cuando generan
+            sufrimiento o interfieren en la vida cotidiana.
         </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     PENSAMIENTOS RELACIONADOS CON LA MUERTE
+     ========================================================= -->
+
+<section
+    class="section thoughts-section"
+    id="pensamientos"
+>
+
+
+    <div class="section-heading">
+
+        <span class="eyebrow">
+            Hablemos de lo que pasa por nuestra mente
+        </span>
+
 
         <h2>
-          Pensamientos relacionados con la muerte
+            Pensamientos relacionados con la muerte
         </h2>
 
+
         <p>
-          En algunos momentos pueden aparecer pensamientos
-          repetitivos relacionados con la muerte, accidentes,
-          enfermedades o la posibilidad de que algo malo suceda.
+            Algunas personas pueden experimentar pensamientos
+            repetitivos relacionados con la muerte, los accidentes,
+            enfermedades o la posibilidad de que algo malo suceda.
         </p>
 
-      </div>
+    </div>
 
 
-      <div class="thoughts-card">
+
+    <div class="thoughts-box">
+
 
         <div class="thoughts-icon">
-          💭
+            💭
         </div>
 
-        <div>
 
-          <p>
-            Estos pensamientos pueden generar miedo, angustia
-            o preocupación y, en algunas personas, pueden
-            volverse difíciles de controlar.
-          </p>
 
-          <p>
-            <strong>
-              Tener estos pensamientos no significa
-              automáticamente querer morir.
-            </strong>
-          </p>
+        <div class="thoughts-content">
 
-          <p>
-            Sin embargo, cuando aparecen con frecuencia,
-            generan sufrimiento o interfieren con la vida
-            cotidiana, es importante poder hablar sobre ellos
-            y buscar acompañamiento profesional.
-          </p>
+            <h3>
+                Tener estos pensamientos no significa automáticamente
+                querer morir.
+            </h3>
+
+
+            <p>
+                Los pensamientos pueden aparecer de distintas maneras
+                y tener diferentes significados. Lo importante es
+                prestar atención a cómo nos hacen sentir y cuánto
+                interfieren en nuestra vida.
+            </p>
+
+
+            <ul>
+
+                <li>
+                    Pensar repetidamente en la muerte.
+                </li>
+
+                <li>
+                    Imaginar accidentes o situaciones negativas.
+                </li>
+
+                <li>
+                    Tener miedo constante de que algo malo suceda.
+                </li>
+
+                <li>
+                    Pensamientos que aparecen una y otra vez aunque
+                    no queramos tenerlos.
+                </li>
+
+                <li>
+                    Sentir angustia o necesidad de comprobar
+                    constantemente que todo está bien.
+                </li>
+
+            </ul>
+
+
+            <div class="thoughts-note">
+
+                <p>
+                    Si estos pensamientos son frecuentes, generan
+                    mucho malestar o empiezan a afectar el sueño,
+                    los estudios, el trabajo, los vínculos o la vida
+                    cotidiana, hablar con un/a profesional puede
+                    ayudarte a comprender qué está pasando.
+                </p>
+
+            </div>
 
         </div>
 
-      </div>
+    </div>
 
-    </section>
+</section>
 
 
-    <!-- ================================
-         ACOMPAÑAR
-    ================================= -->
 
-    <section class="section support-section" id="acompanar">
+<!-- =========================================================
+     ACOMPAÑAR
+     ========================================================= -->
 
-      <div class="section-heading">
+<section
+    class="section support-section"
+    id="acompanar"
+>
 
-        <p class="eyebrow">
-          ESTAR CERCA
-        </p>
+
+    <div class="section-heading">
+
+        <span class="eyebrow">
+            Si alguien que querés está pasando por algo difícil
+        </span>
+
 
         <h2>
-          Primeros auxilios psicológicos
+            Acompañar también es estar.
         </h2>
 
+
         <p>
-          Acompañar no significa tener todas las respuestas.
-          Significa estar disponible y ayudar a conectar
-          con el apoyo necesario.
+            No necesitás tener todas las respuestas.
+            Muchas veces, escuchar y ayudar a buscar apoyo
+            profesional es suficiente para comenzar.
         </p>
 
-      </div>
+    </div>
 
 
-      <div class="steps">
 
-        <article class="step">
-
-          <div class="step-number">
-            01
-          </div>
-
-          <h3>
-            Escuchá
-          </h3>
-
-          <p>
-            Buscá un lugar tranquilo y escuchá con atención.
-            No hace falta tener una solución inmediata.
-          </p>
-
-        </article>
+    <div class="steps">
 
 
         <article class="step">
 
-          <div class="step-number">
-            02
-          </div>
+            <div class="step-number">
+                01
+            </div>
 
-          <h3>
-            Preguntá
-          </h3>
+            <div>
 
-          <p>
-            Podés preguntar directamente cómo se siente
-            y qué está atravesando.
-          </p>
+                <h3>
+                    Acercate
+                </h3>
+
+                <p>
+                    Buscá un momento tranquilo y preguntá cómo está.
+                    No hace falta esperar a que la persona pida ayuda.
+                </p>
+
+            </div>
 
         </article>
+
 
 
         <article class="step">
 
-          <div class="step-number">
-            03
-          </div>
+            <div class="step-number">
+                02
+            </div>
 
-          <h3>
-            No juzgues
-          </h3>
+            <div>
 
-          <p>
-            Evitá minimizar lo que siente o decirle
-            cómo debería sentirse.
-          </p>
+                <h3>
+                    Escuchá
+                </h3>
+
+                <p>
+                    Dejá que pueda expresarse sin interrumpir,
+                    minimizar lo que siente o juzgarla.
+                </p>
+
+            </div>
 
         </article>
+
 
 
         <article class="step">
 
-          <div class="step-number">
-            04
-          </div>
+            <div class="step-number">
+                03
+            </div>
 
-          <h3>
-            Acompañá
-          </h3>
+            <div>
 
-          <p>
-            Hacé saber que no tiene que atravesar
-            ese momento completamente a solas.
-          </p>
+                <h3>
+                    Tomá en serio
+                </h3>
+
+                <p>
+                    Si expresa que está sufriendo o que no puede
+                    continuar con una situación, no minimices
+                    lo que está diciendo.
+                </p>
+
+            </div>
 
         </article>
+
 
 
         <article class="step">
 
-          <div class="step-number">
-            05
-          </div>
+            <div class="step-number">
+                04
+            </div>
 
-          <h3>
-            Busquen ayuda
-          </h3>
+            <div>
 
-          <p>
-            Ayudá a encontrar una persona de confianza
-            o un profesional de salud.
-          </p>
+                <h3>
+                    Busquen ayuda
+                </h3>
+
+                <p>
+                    Podés acompañar a la persona a contactar
+                    un servicio de salud o un/a profesional.
+                </p>
+
+            </div>
 
         </article>
+
 
 
         <article class="step urgent-step">
 
-          <div class="step-number">
-            06
-          </div>
+            <div class="step-number">
+                !
+            </div>
 
-          <h3>
-            Si hay peligro inmediato
-          </h3>
+            <div>
 
-          <p>
-            No dejes sola a la persona y buscá ayuda
-            de emergencia de inmediato.
-          </p>
+                <h3>
+                    Si existe un riesgo inmediato
+                </h3>
+
+                <p>
+                    No dejes sola a la persona. Busquen ayuda
+                    urgente llamando al 107 o al 911,
+                    o acudiendo a una guardia.
+                </p>
+
+            </div>
 
         </article>
 
-      </div>
+    </div>
 
 
-      <!-- QUÉ DECIR -->
 
-      <div class="what-to-say">
+    <!-- QUÉ DECIR -->
 
-        <div class="section-heading">
+    <div class="what-to-say">
 
-          <p class="eyebrow">
-            NO NECESITÁS LAS PALABRAS PERFECTAS
-          </p>
+        <span class="eyebrow">
+            Palabras que pueden ayudar
+        </span>
 
-          <h2>
+
+        <h2>
             ¿Qué puedo decir?
-          </h2>
-
-        </div>
+        </h2>
 
 
         <div class="say-comparison">
 
-          <div class="say-box avoid">
 
-            <span class="say-label">
-              EN LUGAR DE
-            </span>
+            <div class="say-box avoid">
 
-            <p>
-              ❌ “Tenés que ponerle ganas.”
-            </p>
+                <span class="say-label">
+                    Evitar
+                </span>
 
-          </div>
+                <p>
+                    “No pienses en eso.”
+                </p>
+
+                <p>
+                    “Hay gente que está peor.”
+                </p>
+
+                <p>
+                    “Tenés que ser fuerte.”
+                </p>
+
+            </div>
 
 
-          <div class="say-box helpful">
 
-            <span class="say-label">
-              PODÉS DECIR
-            </span>
+            <div class="say-box helpful">
 
-            <p>
-              ✅ “Gracias por confiar en mí.
-              Estoy acá con vos.”
-            </p>
+                <span class="say-label">
+                    Puede ayudar
+                </span>
 
-          </div>
+                <p>
+                    “Estoy acá para escucharte.”
+                </p>
+
+                <p>
+                    “Lo que sentís importa.”
+                </p>
+
+                <p>
+                    “Podemos buscar ayuda juntos.”
+                </p>
+
+            </div>
 
         </div>
 
-      </div>
+    </div>
 
-    </section>
+</section>
 
 
-    <!-- ================================
-         CONVERSACIÓN
-    ================================= -->
 
-    <section class="section conversation-section" id="conversacion">
+<!-- =========================================================
+     CONVERSACIÓN
+     ========================================================= -->
 
-      <div class="conversation-content">
+<section
+    class="section conversation-section"
+    id="conversacion"
+>
+
+
+    <div class="conversation-content">
 
         <div class="section-heading">
 
-          <p class="eyebrow">
-            DAR EL PRIMER PASO
-          </p>
+            <span class="eyebrow">
+                Empezar a hablar
+            </span>
 
-          <h2>
-            ¿Cómo iniciar la conversación?
-          </h2>
 
-          <p>
-            No necesitás encontrar una frase perfecta.
-            Una pregunta sencilla puede abrir un espacio
-            para hablar.
-          </p>
+            <h2>
+                ¿Cómo iniciar una conversación?
+            </h2>
+
+
+            <p>
+                No existe una frase perfecta. Lo importante
+                es acercarse desde el interés y el cuidado.
+            </p>
 
         </div>
+
 
 
         <div class="conversation-bubbles">
 
-          <div class="chat-bubble left">
-            “Te noto diferente últimamente.
-            ¿Querés contarme cómo estás?”
-          </div>
 
-          <div class="chat-bubble right">
-            “¿Cómo venís llevando estos días?”
-          </div>
+            <div class="chat-bubble left">
+                “Hace unos días te noto diferente.
+                ¿Querés contarme cómo estás?”
+            </div>
 
-          <div class="chat-bubble left">
-            “No tenés que contarme todo,
-            pero quiero que sepas que estoy acá.”
-          </div>
 
-          <div class="chat-bubble right">
-            “¿Hay algo que pueda hacer para acompañarte?”
-          </div>
+            <div class="chat-bubble right">
+                “No sé muy bien qué decir,
+                pero siento que necesito hablar.”
+            </div>
+
+
+            <div class="chat-bubble left">
+                “No tenés que saber exactamente qué decir.
+                Podemos hablar de a poco.”
+            </div>
+
+
+            <div class="chat-bubble right">
+                “Gracias por quedarte conmigo.”
+            </div>
 
         </div>
+
 
 
         <div class="myth-highlight">
 
-          <span>💡</span>
+            <span>
+                💬
+            </span>
 
-          <p>
+            <div>
 
-            <strong>
-              Preguntar no significa poner una idea
-              en la cabeza de alguien.
-            </strong>
+                <h3>
+                    Preguntar no genera una idea que antes no existía.
+                </h3>
 
-            Hablar de lo que una persona está sintiendo
-            puede ayudar a que no tenga que cargarlo
-            en silencio.
+                <p>
+                    Preguntar con respeto cómo se siente una persona
+                    puede abrir un espacio para que pueda expresar
+                    aquello que está atravesando.
+                </p>
 
-          </p>
+            </div>
 
         </div>
 
-      </div>
+    </div>
 
-    </section>
+</section>
 
 
-    <!-- ================================
-         MITOS
-    ================================= -->
 
-    <section class="section myths-section" id="mitos">
+<!-- =========================================================
+     MITOS
+     ========================================================= -->
 
-      <div class="section-heading">
+<section
+    class="section myths-section"
+    id="mitos"
+>
 
-        <p class="eyebrow">
-          INFORMACIÓN QUE AYUDA
-        </p>
+
+    <div class="section-heading centered">
+
+        <span class="eyebrow">
+            Información que importa
+        </span>
+
 
         <h2>
-          Mitos vs. realidad
+            Mitos vs. realidad
         </h2>
 
+
         <p>
-          Tocá una tarjeta para descubrir qué hay detrás
-          de algunas ideas frecuentes.
+            Tocá cada tarjeta para descubrir la respuesta.
         </p>
 
-      </div>
+    </div>
 
 
-      <div class="myths-grid">
 
-
-        <article class="myth-card">
-
-          <div class="myth-front">
-
-            <span class="myth-tag">
-              MITO
-            </span>
-
-            <h3>
-              “Hablar sobre suicidio puede hacer que alguien lo haga.”
-            </h3>
-
-            <span class="flip-hint">
-              Tocá para ver la realidad →
-            </span>
-
-          </div>
-
-
-          <div class="myth-back">
-
-            <span class="reality-tag">
-              REALIDAD
-            </span>
-
-            <p>
-              Preguntar y escuchar de manera respetuosa
-              puede abrir un espacio para que la persona
-              pueda expresar lo que está viviendo y
-              recibir ayuda.
-            </p>
-
-          </div>
-
-        </article>
+    <div class="myths-grid">
 
 
         <article class="myth-card">
 
-          <div class="myth-front">
+            <div class="myth-front">
 
-            <span class="myth-tag">
-              MITO
-            </span>
+                <span class="myth-tag">
+                    MITO
+                </span>
 
-            <h3>
-              “Si alguien realmente quisiera morir,
-              no pediría ayuda.”
-            </h3>
+                <h3>
+                    “Hablar de la muerte puede hacer que una persona
+                    piense más en ella.”
+                </h3>
 
-            <span class="flip-hint">
-              Tocá para ver la realidad →
-            </span>
+                <span class="flip-hint">
+                    Tocá para ver la realidad →
+                </span>
 
-          </div>
+            </div>
 
 
-          <div class="myth-back">
+            <div class="myth-back">
 
-            <span class="reality-tag">
-              REALIDAD
-            </span>
+                <span class="reality-tag">
+                    REALIDAD
+                </span>
 
-            <p>
-              Las personas pueden experimentar sentimientos
-              contradictorios y buscar ayuda incluso cuando
-              están atravesando un sufrimiento muy intenso.
-            </p>
+                <p>
+                    Hablar de manera respetuosa puede permitir
+                    que la persona exprese lo que siente y reciba
+                    acompañamiento.
+                </p>
 
-          </div>
+            </div>
 
         </article>
+
 
 
         <article class="myth-card">
 
-          <div class="myth-front">
+            <div class="myth-front">
 
-            <span class="myth-tag">
-              MITO
-            </span>
+                <span class="myth-tag">
+                    MITO
+                </span>
 
-            <h3>
-              “Las personas que hablan de suicidio
-              solo quieren llamar la atención.”
-            </h3>
+                <h3>
+                    “Si alguien habla de lo que le pasa,
+                    solamente busca llamar la atención.”
+                </h3>
 
-            <span class="flip-hint">
-              Tocá para ver la realidad →
-            </span>
+                <span class="flip-hint">
+                    Tocá para ver la realidad →
+                </span>
 
-          </div>
+            </div>
 
 
-          <div class="myth-back">
+            <div class="myth-back">
 
-            <span class="reality-tag">
-              REALIDAD
-            </span>
+                <span class="reality-tag">
+                    REALIDAD
+                </span>
 
-            <p>
-              Toda expresión de sufrimiento merece ser
-              tomada en serio y escuchada con respeto.
-            </p>
+                <p>
+                    Expresar sufrimiento puede ser una forma
+                    de pedir ayuda. Lo importante es escuchar
+                    y no minimizar lo que la persona comunica.
+                </p>
 
-          </div>
+            </div>
 
         </article>
+
 
 
         <article class="myth-card">
 
-          <div class="myth-front">
+            <div class="myth-front">
 
-            <span class="myth-tag">
-              MITO
-            </span>
+                <span class="myth-tag">
+                    MITO
+                </span>
 
-            <h3>
-              “Hay que saber exactamente qué decir
-              para poder ayudar.”
-            </h3>
+                <h3>
+                    “Si alguien sonríe y parece estar bien,
+                    entonces no puede estar sufriendo.”
+                </h3>
 
-            <span class="flip-hint">
-              Tocá para ver la realidad →
-            </span>
+                <span class="flip-hint">
+                    Tocá para ver la realidad →
+                </span>
 
-          </div>
+            </div>
 
 
-          <div class="myth-back">
+            <div class="myth-back">
 
-            <span class="reality-tag">
-              REALIDAD
-            </span>
+                <span class="reality-tag">
+                    REALIDAD
+                </span>
 
-            <p>
-              No necesitás tener todas las respuestas.
-              Escuchar, acompañar y ayudar a buscar
-              apoyo puede ser un primer paso importante.
-            </p>
+                <p>
+                    El sufrimiento emocional no siempre es visible.
+                    Por eso es importante prestar atención a lo que
+                    la persona expresa y no solamente a su apariencia.
+                </p>
 
-          </div>
+            </div>
 
         </article>
 
-      </div>
-
-    </section>
 
 
-    <!-- ================================
-         SI TE ESTÁ PASANDO
-    ================================= -->
+        <article class="myth-card">
 
-    <section class="section personal-section" id="vos">
+            <div class="myth-front">
 
-      <div class="personal-content">
+                <span class="myth-tag">
+                    MITO
+                </span>
 
-        <div class="personal-icon">
-          🌱
-        </div>
+                <h3>
+                    “Pedir ayuda significa que no puedo resolver
+                    mis problemas.”
+                </h3>
 
-        <p class="eyebrow">
-          SI ESTO TE ESTÁ PASANDO A VOS
-        </p>
+                <span class="flip-hint">
+                    Tocá para ver la realidad →
+                </span>
+
+            </div>
+
+
+            <div class="myth-back">
+
+                <span class="reality-tag">
+                    REALIDAD
+                </span>
+
+                <p>
+                    Pedir ayuda es una forma de cuidado.
+                    Nadie tiene por qué afrontar situaciones
+                    complejas completamente en soledad.
+                </p>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     SECCIÓN PERSONAL
+     ========================================================= -->
+
+<section
+    class="section personal-section"
+    id="vos"
+>
+
+
+    <div class="personal-content">
+
+        <span class="personal-icon">
+            🌱
+        </span>
+
+
+        <span class="eyebrow">
+            También vos importás
+        </span>
+
 
         <h2>
-          No tenés que atravesarlo en silencio.
+            No tenés que atravesarlo en silencio.
         </h2>
 
+
         <p>
-          No necesitás encontrar las palabras perfectas
-          para pedir ayuda.
+            Cuidar nuestra salud mental también significa reconocer
+            cuándo necesitamos una pausa, hablar con alguien o buscar
+            ayuda profesional.
         </p>
 
 
         <div class="quote-box">
 
-          “No estoy bien y necesito que alguien
-          me acompañe.”
+            <span>
+                “
+            </span>
+
+            <p>
+                Pedir ayuda no te hace débil.
+                Te permite no cargar todo solo/a.
+            </p>
+
+            <span>
+                ”
+            </span>
 
         </div>
 
 
         <div class="personal-buttons">
 
-          <a href="#ayuda" class="button button-primary">
-            BUSCAR AYUDA
-          </a>
+            <a
+                href="#ayuda"
+                class="button button-primary"
+            >
+                Encontrar ayuda
+            </a>
 
-          <a href="#conversacion" class="button button-secondary">
-            HABLAR CON ALGUIEN
-          </a>
+
+            <a
+                href="#compartir"
+                class="button button-secondary"
+            >
+                Compartir una reflexión
+            </a>
 
         </div>
 
-      </div>
+    </div>
 
-    </section>
+</section>
 
 
-    <!-- ================================
-         AYUDA
-    ================================= -->
 
-    <section class="section help-section" id="ayuda">
+<!-- =========================================================
+     AYUDA
+     ========================================================= -->
 
-      <div class="section-heading">
+<section
+    class="section help-section"
+    id="ayuda"
+>
 
-        <p class="eyebrow">
-          RECURSOS
-        </p>
+
+    <div class="section-heading centered">
+
+        <span class="eyebrow">
+            Ayuda y recursos
+        </span>
+
 
         <h2>
-          Ayuda cerca tuyo
+            Si necesitás ayuda, no estás solo/a.
         </h2>
 
+
         <p>
-          Si vos o alguien cercano está atravesando una
-          situación de riesgo, buscá ayuda inmediata.
-          También podés acercarte a los servicios de salud
-          de tu comunidad.
+            Si existe una situación de urgencia o riesgo inmediato,
+            buscá ayuda ahora.
         </p>
 
-      </div>
+    </div>
 
 
-      <!-- EMERGENCIAS -->
 
-      <div class="emergency-grid">
+    <!-- EMERGENCIAS -->
 
-
-        <article class="emergency-card">
-
-          <div class="emergency-icon">
-            🚨
-          </div>
-
-          <h3>
-            Emergencias
-          </h3>
-
-          <p>
-            Ante una situación de peligro inmediato,
-            contactá al servicio de emergencias.
-          </p>
-
-          <a
-            href="tel:911"
-            class="emergency-number"
-          >
-            911
-          </a>
-
-        </article>
+    <div class="emergency-grid">
 
 
         <article class="emergency-card">
 
-          <div class="emergency-icon">
-            🏥
-          </div>
+            <span class="emergency-icon">
+                🚑
+            </span>
 
-          <h3>
-            Emergencias médicas
-          </h3>
+            <h3>
+                Emergencias
+            </h3>
 
-          <p>
-            También podés acercarte a una guardia
-            hospitalaria o centro de salud.
-          </p>
+            <a
+                href="tel:107"
+                class="emergency-number"
+            >
+                107
+            </a>
 
-          <a
-            href="tel:107"
-            class="emergency-number"
-          >
-            107
-          </a>
-
-          <small>
-            donde corresponda
-          </small>
+            <p>
+                Emergencias médicas.
+            </p>
 
         </article>
 
-      </div>
 
 
-      <!-- RECURSOS LOCALES -->
+        <article class="emergency-card">
 
-      <div class="local-resources">
+            <span class="emergency-icon">
+                🚨
+            </span>
+
+            <h3>
+                Emergencias
+            </h3>
+
+            <a
+                href="tel:911"
+                class="emergency-number"
+            >
+                911
+            </a>
+
+            <p>
+                Emergencias generales.
+            </p>
+
+        </article>
+
+    </div>
+
+
+
+    <!-- RECURSOS LOCALES -->
+
+    <div class="local-resources">
 
         <div class="section-heading">
 
-          <p class="eyebrow">
-            SANTA CRUZ
-          </p>
+            <span class="eyebrow">
+                Santa Cruz
+            </span>
 
-          <h2>
-            Recursos de nuestra comunidad
-          </h2>
 
-          <p>
-            Río Turbio y 28 de Noviembre.
-          </p>
+            <h2>
+                Recursos cercanos
+            </h2>
+
+
+            <p>
+                Información de servicios de salud y acompañamiento
+                disponibles en Río Turbio y 28 de Noviembre.
+            </p>
 
         </div>
+
 
 
         <div class="local-resource-grid">
 
 
-          <!-- HOSPITAL RÍO TURBIO -->
+            <!-- RÍO TURBIO -->
 
-          <article class="local-resource-card">
+            <article class="local-resource-card">
 
-            <div class="local-resource-icon">
-              🏥
-            </div>
-
-            <h3>
-              Hospital Distrital Río Turbio
-            </h3>
-
-            <p>
-              Atención y asistencia sanitaria
-              en la comunidad.
-            </p>
-
-            <a
-              href="tel:02902421303"
-              class="local-phone"
-            >
-              📞 02902 42-1303
-            </a>
-
-          </article>
+                <span class="resource-label">
+                    RÍO TURBIO
+                </span>
 
 
-          <!-- CENTRO DE DÍA EL ÁRBOL -->
-
-          <article class="local-resource-card featured-resource">
-
-            <div class="local-resource-icon">
-              🌱
-            </div>
-
-            <span class="resource-label">
-              SALUD MENTAL
-            </span>
-
-            <h3>
-              Centro de Día “El Árbol”
-            </h3>
-
-            <p>
-              Espacio de acompañamiento y atención
-              relacionado con la salud mental.
-            </p>
-
-            <div class="resource-hours">
-              🕘 <strong>Horario:</strong>
-              9:00 a 17:00 hs.
-            </div>
-
-            <a
-              href="tel:2902424655"
-              class="local-phone"
-            >
-              📞 2902 424655
-            </a>
-
-          </article>
+                <h3>
+                    Hospital Distrital Río Turbio
+                </h3>
 
 
-          <!-- HOSPITAL 28 DE NOVIEMBRE -->
+                <p>
+                    Recurso local de atención sanitaria.
+                </p>
 
-          <article class="local-resource-card">
 
-            <div class="local-resource-icon">
-              🏥
-            </div>
+                <a
+                    href="tel:02902421303"
+                    class="local-phone"
+                >
+                    📞 02902 42-1303
+                </a>
 
-            <h3>
-              Hospital San Lucas
-            </h3>
+            </article>
 
-            <p>
-              28 de Noviembre, Santa Cruz.
-            </p>
+<article class="local-resource-card mental-health-resource">
+    <span class="resource-label">SALUD MENTAL</span>
 
-            <a
-              href="tel:02902482122"
-              class="local-phone"
-            >
-              📞 02902 48-2122
-            </a>
+    <h3>Turnos de Salud Mental</h3>
 
-          </article>
+    <p>
+        Hospital Distrital Río Turbio.
+        Solicitud de turnos y consultas por WhatsApp.
+    </p>
 
+    <a
+        href="https://wa.me/542966354436"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="whatsapp-button"
+    >
+        💬 SOLICITAR TURNO POR WHATSAPP
+    </a>
+
+    <a href="tel:2966354436" class="local-phone">
+        📞 2966 354436
+    </a>
+</article>
+
+
+            <!-- EL ÁRBOL -->
+
+            <article class="local-resource-card featured-resource">
+
+                <span class="resource-label">
+                    SALUD MENTAL
+                </span>
+
+
+                <h3>
+                    Centro de Día “El Árbol”
+                </h3>
+
+
+                <p>
+                    Espacio de acompañamiento y atención
+                    relacionado con la salud mental.
+                </p>
+
+
+                <div class="resource-hours">
+
+                    🕘
+                    <strong>
+                        Horario:
+                    </strong>
+
+                    9:00 a 17:00 hs.
+
+                </div>
+
+
+                <a
+                    href="tel:2902424655"
+                    class="local-phone"
+                >
+                    📞 2902 424655
+                </a>
+
+            </article>
+
+
+
+            <!-- 28 DE NOVIEMBRE -->
+
+            <article class="local-resource-card">
+
+                <span class="resource-label">
+                    28 DE NOVIEMBRE
+                </span>
+
+
+                <h3>
+                    Hospital San Lucas
+                </h3>
+
+
+                <p>
+                    Recurso local de atención sanitaria.
+                </p>
+
+
+                <a
+                    href="tel:02902482122"
+                    class="local-phone"
+                >
+                    📞 02902 48-2122
+                </a>
+
+            </article>
 
         </div>
 
-      </div>
+    </div>
 
 
-      <!-- SELECTOR DE PROVINCIA -->
 
-      <div class="province-search">
+    <!-- BUSCADOR PROVINCIAL -->
 
-        <h3>
-          Recursos según tu provincia
-        </h3>
+    <div class="province-search">
 
-        <p>
-          Seleccioná tu provincia para encontrar
-          orientación sobre dónde buscar ayuda.
-        </p>
+        <div>
+
+            <span class="eyebrow">
+                También podés buscar
+            </span>
+
+
+            <h3>
+                Recursos de salud mental
+                en tu provincia
+            </h3>
+
+
+            <p>
+                Seleccioná tu provincia para buscar recursos
+                y servicios disponibles.
+            </p>
+
+        </div>
 
 
         <div class="province-form">
 
-          <select id="province">
-
-            <option value="">
-              Seleccioná tu provincia
-            </option>
-
-            <option value="Buenos Aires">
-              Buenos Aires
-            </option>
-
-            <option value="Catamarca">
-              Catamarca
-            </option>
-
-            <option value="Chaco">
-              Chaco
-            </option>
-
-            <option value="Chubut">
-              Chubut
-            </option>
-
-            <option value="Córdoba">
-              Córdoba
-            </option>
-
-            <option value="Corrientes">
-              Corrientes
-            </option>
-
-            <option value="Entre Ríos">
-              Entre Ríos
-            </option>
-
-            <option value="Formosa">
-              Formosa
-            </option>
-
-            <option value="Jujuy">
-              Jujuy
-            </option>
-
-            <option value="La Pampa">
-              La Pampa
-            </option>
-
-            <option value="La Rioja">
-              La Rioja
-            </option>
-
-            <option value="Mendoza">
-              Mendoza
-            </option>
-
-            <option value="Misiones">
-              Misiones
-            </option>
-
-            <option value="Neuquén">
-              Neuquén
-            </option>
-
-            <option value="Río Negro">
-              Río Negro
-            </option>
-
-            <option value="Salta">
-              Salta
-            </option>
-
-            <option value="San Juan">
-              San Juan
-            </option>
-
-            <option value="San Luis">
-              San Luis
-            </option>
-
-            <option value="Santa Cruz">
-              Santa Cruz
-            </option>
-
-            <option value="Santa Fe">
-              Santa Fe
-            </option>
-
-            <option value="Santiago del Estero">
-              Santiago del Estero
-            </option>
-
-            <option value="Tierra del Fuego">
-              Tierra del Fuego
-            </option>
-
-            <option value="Tucumán">
-              Tucumán
-            </option>
-
-            <option value="Ciudad Autónoma de Buenos Aires">
-              Ciudad Autónoma de Buenos Aires
-            </option>
-
-          </select>
+            <label for="province">
+                Provincia
+            </label>
 
 
-          <button
-            id="search-province"
-            class="button button-secondary"
-            type="button"
-          >
-            VER ORIENTACIÓN
-          </button>
+            <select id="province">
+
+                <option value="">
+                    Seleccioná una provincia
+                </option>
+
+                <option>
+                    Santa Cruz
+                </option>
+
+                <option>
+                    Tierra del Fuego
+                </option>
+
+                <option>
+                    Chubut
+                </option>
+
+                <option>
+                    Río Negro
+                </option>
+
+                <option>
+                    Neuquén
+                </option>
+
+                <option>
+                    Buenos Aires
+                </option>
+
+                <option>
+                    CABA
+                </option>
+
+                <option>
+                    Córdoba
+                </option>
+
+                <option>
+                    Mendoza
+                </option>
+
+                <option>
+                    Otra provincia
+                </option>
+
+            </select>
+
+
+            <button
+                type="button"
+                class="button button-primary"
+                id="province-button"
+            >
+                Buscar recursos
+            </button>
 
         </div>
 
-      </div>
-
-    </section>
+    </div>
 
 
-    <!-- ================================
-         COMPARTIR / COMENTARIOS
-    ================================= -->
 
-    <section class="section comments-section" id="compartir">
+    <div class="verification-note">
 
-      <div class="section-heading">
-
-        <p class="eyebrow">
-          TU VOZ TAMBIÉN IMPORTA
-        </p>
-
-        <h2>
-          💬 Queremos escucharte
-        </h2>
+        <span>
+            ℹ️
+        </span>
 
         <p>
-          Podés compartir una experiencia, reflexión,
-          sugerencia o mensaje relacionado con la salud mental.
+            Los teléfonos y horarios pueden cambiar.
+            Si un número no responde, recurrí a un servicio
+            de emergencia o a la institución correspondiente.
         </p>
 
-      </div>
+    </div>
+
+</section>
 
 
-      <div class="comments-card">
+
+<!-- =========================================================
+     COMPARTIR / COMENTARIOS
+     ========================================================= -->
+
+<section
+    class="section comments-section"
+    id="compartir"
+>
+
+
+    <div class="comments-container">
+
+
+        <div class="section-heading centered">
+
+            <span class="eyebrow">
+                Tu voz también importa
+            </span>
+
+
+            <h2>
+                💬 Compartir
+            </h2>
+
+
+            <p>
+                Podés dejar una reflexión, experiencia o sugerencia
+                sobre este espacio.
+            </p>
+
+        </div>
+
+
+
+        <!--
+        IMPORTANTE:
+
+        Reemplazá TU_ID por el código que te entregue Formspree.
+
+        Ejemplo:
+
+        https://formspree.io/f/xxxxxxxx
+        -->
 
         <form
-          action="https://formspree.io/f/TU_ID"
-          method="POST"
-          class="comments-form"
+            action="https://formspree.io/f/mwlpeqpn"
+            method="POST"
+            class="comments-form"
         >
 
-          <label for="nombre">
-            Nombre
-            <span>(opcional)</span>
-          </label>
-
-          <input
-            type="text"
-            id="nombre"
-            name="nombre"
-            placeholder="Podés dejarlo vacío"
-          >
-
-
-          <label class="anonymous-option">
 
             <input
-              type="checkbox"
-              name="anonimo"
-              value="Sí"
+                type="hidden"
+                name="_subject"
+                value="Nuevo comentario - Entre Nosotros"
             >
 
-            Quiero dejar mi comentario de manera anónima
 
-          </label>
-
-
-          <label for="comentario">
-            ¿Qué querés compartir?
-          </label>
-
-          <textarea
-            id="comentario"
-            name="comentario"
-            rows="6"
-            placeholder="Escribí acá tu experiencia, reflexión o sugerencia..."
-            required
-          ></textarea>
+            <label for="nombre">
+                Nombre
+                <span>
+                    (opcional)
+                </span>
+            </label>
 
 
-          <button
-            type="submit"
-            class="button button-primary"
-          >
-            ENVIAR COMENTARIO
-          </button>
+            <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                placeholder="Podés dejarlo vacío"
+            >
 
 
-          <p class="form-disclaimer">
+            <label class="anonymous-option">
 
-            Este espacio tiene fines educativos y de
-            concientización. No reemplaza la atención
-            de profesionales de salud.
+                <input
+                    type="checkbox"
+                    name="anonimo"
+                    value="Sí"
+                >
 
-            Por seguridad y privacidad, evitá compartir
-            datos personales tuyos o de otras personas.
+                Quiero dejar mi comentario de manera anónima.
 
-          </p>
+            </label>
+
+
+            <label for="comentario">
+                ¿Qué querés compartir?
+            </label>
+
+
+            <textarea
+                id="comentario"
+                name="comentario"
+                rows="7"
+                placeholder="Escribí acá tu experiencia, reflexión o sugerencia..."
+                required
+            ></textarea>
+
+
+            <button
+                type="submit"
+                class="button button-primary"
+            >
+                ENVIAR COMENTARIO
+            </button>
+
+
+            <p class="form-disclaimer">
+                Este espacio tiene fines educativos y de reflexión.
+                Evitá compartir datos personales tuyos o de otras personas.
+            </p>
 
         </form>
 
-      </div>
+    </div>
 
-    </section>
+</section>
 
 
-    <!-- ================================
-         CIERRE
-    ================================= -->
 
-    <section class="final-section">
+<!-- =========================================================
+     FINAL
+     ========================================================= -->
 
-      <div class="final-content">
+<section class="final-section">
 
-        <div class="final-leaf">
-          🌿
-        </div>
+    <div class="final-content">
 
-        <p class="final-brand">
-          ENTRE NOSOTROS
-        </p>
+        <span class="final-leaf">
+            🌿
+        </span>
+
 
         <h2>
-          A veces, acompañar empieza con una pregunta.
+            Una conversación puede ser un comienzo.
         </h2>
 
+
+        <h3>
+            Escuchar también es cuidar.
+        </h3>
+
+
         <p>
-          A veces, pedir ayuda empieza con una palabra.
-          Y a veces, reconocer una señal puede cambiar
-          una historia.
+            Si algo de lo que leíste te hizo pensar en vos
+            o en alguien que querés, no tenés que resolverlo
+            en soledad.
         </p>
+
+
+        <div class="final-brand">
+            ENTRE NOSOTROS
+        </div>
+
 
         <p class="final-tagline">
-          Acá podés hablar.
+            Escuchar · Acompañar · Prevenir
         </p>
 
-      </div>
+    </div>
 
-    </section>
-
-  </main>
+</section>
 
 
-  <!-- ================================
-       PIE DE PÁGINA
-  ================================= -->
+</main>
 
-  <footer class="site-footer">
+
+
+<!-- =========================================================
+     FOOTER
+     ========================================================= -->
+
+<footer class="site-footer">
+
 
     <div class="footer-content">
 
-      <div class="footer-brand">
 
-        <strong>
-          🌿 ENTRE NOSOTROS
-        </strong>
+        <div class="footer-brand">
 
-        <p>
-          Escuchar también es acompañar.
-        </p>
+            <strong>
+                🌿 ENTRE NOSOTROS
+            </strong>
 
-      </div>
+            <p>
+                Espacio educativo de promoción
+                y prevención en salud mental.
+            </p>
 
-
-      <div class="footer-institution">
-
-        <strong>
-          Universidad Nacional de la Patagonia Austral
-        </strong>
-
-        <p>
-          Cátedra: Enfermería en Salud Mental
-        </p>
-
-      </div>
+        </div>
 
 
-      <div class="footer-links">
 
-        <a href="#senales">
-          Señales
-        </a>
+        <div class="footer-links">
 
-        <a href="#acompanar">
-          Acompañar
-        </a>
+            <a href="#inicio">
+                Inicio
+            </a>
 
-        <a href="#mitos">
-          Mitos
-        </a>
+            <a href="#senales">
+                Señales
+            </a>
 
-        <a href="#compartir">
-          Compartir
-        </a>
+            <a href="#acompanar">
+                Acompañar
+            </a>
 
-        <a href="#ayuda">
-          Ayuda
-        </a>
+            <a href="#mitos">
+                Mitos
+            </a>
 
-      </div>
+            <a href="#ayuda">
+                Ayuda
+            </a>
+
+            <a href="#compartir">
+                Compartir
+            </a>
+
+        </div>
 
 
-      <div class="footer-disclaimer">
 
-        <p>
-          Este sitio tiene fines educativos y de
-          concientización. No reemplaza la atención
-          de profesionales de salud ni los servicios
-          de emergencia.
-        </p>
+        <div class="footer-disclaimer">
 
-      </div>
+            <p>
+                Universidad Nacional de la Patagonia Austral
+            </p>
+
+            <p>
+                Cátedra: Enfermería en Salud Mental
+            </p>
+
+            <p>
+                Este sitio tiene fines educativos
+                y no reemplaza la atención profesional.
+            </p>
+
+        </div>
 
     </div>
+
 
 
     <div class="footer-bottom">
 
-      <p>
-        © <span data-year></span> Entre Nosotros
-      </p>
+        <p>
+            © 2026 Entre Nosotros · UNPA
+        </p>
 
     </div>
 
-  </footer>
+</footer>
 
 
-  <!-- JavaScript -->
 
-  <script src="script.js"></script>
+<!-- =========================================================
+     JAVASCRIPT
+     ========================================================= -->
+
+<script src="script.js"></script>
+
 
 </body>
+
 </html>
-```
