@@ -2547,3 +2547,8 @@ strong {
     display: block;
     margin-top: 8px;
 }
+.institutional-logo img {
+    display: block !important;
+    width: 100px !important;
+    height: auto !important;
+}
